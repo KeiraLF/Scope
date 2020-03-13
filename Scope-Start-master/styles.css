@@ -1,0 +1,198 @@
+/* General Selectors */
+body {
+  font-family: Junje;
+}
+
+button {
+  font-family: Handlee;
+  margin: 0 0.5rem;
+}
+
+h1 {
+  font-family: Handlee;
+  font-style: oblique;
+  color: teal;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  border-radius: .3rem;
+  width: 80%;
+}
+
+h2 {
+  font-family: Handlee;
+  color: teal;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 60%;
+  margin-left: 20%;
+}
+
+h3 {
+  font-family: Handlee;
+  font-weight: bold;
+  color: teal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  border-radius: .1rem;
+}
+
+p {
+  color: #17a2b8;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  font-family: junje;
+}
+
+/* Class Selectors */
+.agarblue {
+  width: 80%;
+  height: auto;
+  position: relative;
+  left: 20%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navigate {
+  font-family: Handlee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.sec1 {
+  padding: 10% 2%;
+}
+
+.rnudge {
+  padding-right: 20%;
+}
+
+.icons {
+  color: #17a2b8;
+  padding-bottom: 1.5rem;
+}
+
+.icons:hover {
+  color: teal;
+  padding-bottom: 1.5rem;
+}
+
+.brand {
+  font-style: oblique;
+}
+
+/* ID Selectors */
+#title {
+  background-color: #beebe9;
+}
+
+#features {
+  background-color: white;
+  text-align: center;
+  padding: 10% 2%;
+  margin-right: 5%;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #beebe9;
+  color: teal;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-inner {
+  height: 650px;
+}
+
+.carousel-item {
+  padding: 8% 2%;
+}
+
+/* Press */
+#press {
+  background-color: #beebe9;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  .agarblue {
+    padding-top: 30px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .carousel-inner {
+    height: 400px;
+  }
+}
+
+/* Ending */
+#cta {
+  background-color: #beebe9;
+  text-align: center;
+  padding: 5% 30%;
+}
+
+.ctah {
+  padding-bottom: 50px;
+  font-size: 2rem;
+}
+
+#footer {
+  background-color: white;
+  text-align: center;
+  height: 80px;
+  padding-top: 25px;
+}
+
+.copyright {
+  font-family: Junje;
+  padding-bottom: 20px;
+}
+
+.icon {
+  color: #17a2b8;
+  padding-bottom: 0.5rem;
+}
+
+.icon:hover {
+  color: teal;
+  padding-bottom: 0.5rem;
